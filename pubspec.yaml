@@ -1,0 +1,24 @@
+name: feature_flutter
+description: >
+  Flutter bindings for feature_core — wires FeatureController to the
+  StatefulWidget lifecycle via FeaturePageMixin and ValueNotifierPageState.
+version: 0.1.0+1
+publish_to: none
+
+environment:
+  sdk: ^3.11.0
+  flutter: ^3.41.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  feature_core:
+    git:
+      url: https://github.com/lumpsoid/feature_core_dart
+      ref: 7b81a8e1e112086dd2720fbb1abde1e7fc59b27b
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.5
+  very_good_analysis: ^10.2.0
